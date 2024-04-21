@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.logo{
+    width: 4%;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.navbar-nav{
+    margin-right: 100px;
+    font-size: 20px;
+}
+.carousel-item img{
+    width: 50%;
+    height: 90vh;
+}
+.carousel .carousel-indicators button {
+    width: 15px;
+    height: 10px;
+    border-radius: 100%;
+  }
+.main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: -30% 0% 0% 0%;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    font-size: 3.5rem;
+    color: white;
+    display: flex;
+    
+} 
+.main p {
+    white-space: nowrap;
+    overflow: hidden;     
+  }
+  
+  /* Animation */
+  .main p {
+    animation: animated-text 5s steps(30,end) 1s 1 normal both;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+  .d-flex{
+      margin: -38% 20% 0% 20%;
+  }
+  .form-control{
+      padding: 2%;
+      font-size: 1.5em;
+  }
+  .btn{
+      padding: 0% 3% 0% 3%;
+      font-size: 1.5rem;
+  }
+  .content{
+      justify-content: center;
+      margin-top: 18%;
+      margin-left: 0%;
+      align-items: center;
+      background-color: rgb(134, 184, 248);
+  }
+  .content h1{
+      text-align: center;
+      font-family: 'Roboto Slab', serif;
+  }
+  .content p{
+      text-align: center;
+      font-family: 'Goudy Bookletter 1911', serif;
+      font-size: 1.5rem;
+  }
+  .col img{
+      border-radius: 100%;
+      width: 200px;
+  }
+  .row{
+      margin-left: 5%;
+      margin-bottom: 5%;
+  }
+  .row p{
+      margin-left: 20%;
+      font-size: 1.2rem;
+      margin-top: 1%;
+      color: rgb(201, 21, 21);
+  }
+  .grid{
+      background-color: rgb(248, 179, 193);
+      margin-top: 0%;
+  }
+.grid h1{
+    padding-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.container1{
+    justify-content: center;
+    margin-top: 0%;
+    align-items: center;
+    height: 50vh;
+}
+.container1 h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.row1{
+    display: inline-flex;
+    margin-left: 20%;
+}
+.row1 p{
+text-align: center;
+}
+.col1{
+    margin: 0% 10% 0% 0%;
+}
+.col1 img{
+    width: 200px;
+    border-radius: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: black;
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 30px;
+  font-weight: 1000;
+  color: rgb(204, 12, 12);
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+  color: black;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: white;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+footer .content .media-icons a img{
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+
+}
+.content .media-icons a:hover{
+  border-color: #eb2f06;
+}
+footer .bottom{
+  width: 100%;
+  text-align: center;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #eb2f06;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+
+
+  
+
+
+

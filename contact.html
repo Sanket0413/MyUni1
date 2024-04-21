@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <style>.contact-us {
+    padding: 70px 0px;
+    background-image: linear-gradient( rgba(78, 25, 25, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1562774053-701939374585?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"); 
+    background-size: cover;
+background-position: center;
+background-size: 1366px 530px;
+height: 530px;;
+    
+}
+.section-title h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #af8070;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.section-title p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+}
+.contact-us input,
+.contact-us textarea {
+    background: #fafafa;
+}
+.contact-us textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact-us .map {
+    overflow: hidden;
+    border-radius: 4px;
+}</style>
+</head>
+
+<body>
+    <!-- Contact Us Section -->
+    <section class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="section-title">
+                        <h2>Contact Us</h2>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <form action="/" class="mb-4 mb-lg-0">
+                        <div class="form-row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" style="margin-top: 3%;" placeholder="Your Name" />
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="email" class="form-control" name="email" id="email" style="margin-top: 3%;
+                                    "placeholder="Your Email" />
+                            </div>
+                        </div>
+                       
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Type Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light">Contact Now</button>
+                    </form>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.9949653942754!2d77.89438571417911!3d29.86441903401135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3d3e44a815f%3A0x874c399a4ee5bb81!2sIIT%20Roorkee!5e0!3m2!1sen!2sin!4v1632566900993!5m2!1sen!2sin"
+                            
+                            width="100%" height="350" frameborder="0" style="border: 0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Us Section -->
+</body>
+
+</html>
